@@ -1,22 +1,62 @@
-.App {
-  text-align: center;
+body{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.NavigacioniBar{
+  height:100px;
+  display:grid;
+  grid-template-columns: 100px auto auto auto auto;
+  background-color: rgb(11, 144, 44);
+  justify-items: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.tabovi{
+ color: white;
+}
+img{
+  height:100px;
+width: 150;
 }
 
-.App-link {
-  color: #09d3ac;
+.home{
+  margin-top: 70px;
+}
+.home .player{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
+}
+
+.home .Buttons{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 15px;
+}
+.invisible{
+  visibility: hidden;
+}
+.prev{
+  background-color: black;
+  height: 50px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  text-decoration: none;
+}
+.next{
+  background-color: black;
+  height: 50px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  text-decoration: none;
+}
+.next:hover{
+  background-color: rgba(104, 104, 104, 0.5);
+  color: black;
+
+}
+.prev:hover{
+  background-color: rgba(104, 104, 104, 0.5);
+  color: black;
+
 }
