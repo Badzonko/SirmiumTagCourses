@@ -2,19 +2,29 @@ body{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .NavigacioniBar{
-  height:100px;
+  height:40px;
   display:grid;
-  grid-template-columns: 100px auto auto auto auto;
+  grid-template-columns: 50px auto auto auto auto;
   background-color: rgb(11, 144, 44);
-  justify-items: center;
-  align-items: center;
+  justify-items: center !important;
+  align-items: center !important;
 }
 .tabovi{
  color: white;
 }
+.tabovi{
+height: 40px;
+}
+
+.links{
+  width: 100%;
+  text-align: center;
+  
+  
+}
 img{
-  height:100px;
-width: 150;
+  height:40px;
+width: 100%;
 }
 
 .home{
@@ -58,5 +68,12 @@ width: 150;
 .prev:hover{
   background-color: rgba(104, 104, 104, 0.5);
   color: black;
+
+}
+.naslov{
+  text-align: center;
+}
+.NavigacioniBar div:hover{
+background-color:rgb(10, 77, 27);
 
 }
