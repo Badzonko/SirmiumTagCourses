@@ -6,6 +6,7 @@ import Course1 from './Course1';
 import Course2 from './Course2';
 import Course3 from './Course3';
 import Navbar from './Navbar';
+import Footer from './Footer';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 class App extends React.Component {
@@ -17,7 +18,9 @@ class App extends React.Component {
   
   render(){
     return(
-      <Router>
+      
+      <div className="Document">
+<Router>
       <div className='wrapper'>
         <Navbar/>
       <Switch>
@@ -28,6 +31,11 @@ class App extends React.Component {
       </Switch>
       </div>
       </Router>
+
+      <Footer/>
+
+
+      </div>
 
     );
 }

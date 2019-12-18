@@ -2,12 +2,26 @@ body{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .NavigacioniBar{
+  margin-bottom: 70px;
   height:40px;
   display:grid;
-  grid-template-columns: 50px auto auto auto auto;
+  grid-template-columns: 100px auto auto auto auto;
   background-color: rgb(11, 144, 44);
   justify-items: center !important;
   align-items: center !important;
+}
+footer{
+  margin-top: 70px;
+  background-color: rgb(11, 11, 12);
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-items: center !important;
+  align-items: center !important;
+  height: 150px;
+  width: 100%;
+}
+.footerTabovi{
+  color: white;
 }
 .tabovi{
  color: white;
@@ -19,17 +33,13 @@ height: 40px;
 .links{
   width: 100%;
   text-align: center;
-  
-  
 }
 img{
   height:40px;
 width: 100%;
 }
 
-.home{
-  margin-top: 70px;
-}
+
 .home .player{
   display: grid;
   grid-template-columns: auto auto auto;
@@ -75,5 +85,4 @@ width: 100%;
 }
 .NavigacioniBar div:hover{
 background-color:rgb(10, 77, 27);
-
 }
