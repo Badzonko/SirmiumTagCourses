@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
 import ReactPlayer from 'react-player';
-import Course from './Course';
-import Course1 from './Course1';
-import Course2 from './Course2';
-import Course3 from './Course3';
+import Bootstrap from './Bootstrap';
+import Css from './Css';
+import Reactjs from './Reactjs';
+import Html from './Html';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import Pocetna from './Pocetna';
+
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 class App extends React.Component {
@@ -24,16 +26,16 @@ class App extends React.Component {
       <div className='wrapper'>
         <Navbar/>
       <Switch>
-          <Route path="/Course" component={Course}/>
-          <Route path="Course1" component={Course1}/>
-          <Route path="Course2" component={Course2}/>
-          <Route path="Course3" component={Course3}/>
+        <Route path="/Pocetna" component={Pocetna}/>
+          <Route path="/Bootstrap" component={Bootstrap}/>
+          <Route path="Css" component={Css}/>
+          <Route path="Reactjs" component={Reactjs}/>
+          <Route path="Html" component={Html}/>
       </Switch>
       </div>
       </Router>
-
+      
       <Footer/>
-
 
       </div>
 

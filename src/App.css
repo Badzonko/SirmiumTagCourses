@@ -20,6 +20,21 @@ footer{
   height: 150px;
   width: 100%;
 }
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+.quote-section .Quote-wrapper{
+  display:grid;
+  grid-template-columns: auto 500px auto;
+text-align: center;
+font-family: 'Lobster', cursive;}
+.quote-section .Author-wrapper{
+  display:grid;
+  grid-template-columns: auto auto auto;
+text-align: center;
+color: rgb(156, 156, 156);
+}
+.content{
+  visibility: hidden;
+}
 .footerTabovi{
   color: white;
 }
@@ -38,8 +53,14 @@ img{
   height:40px;
 width: 100%;
 }
-
-
+.quote-section .Buttonss{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 10px;
+}
+.bck{
+  background-color:black;
+}
 .home .player{
   display: grid;
   grid-template-columns: auto auto auto;
@@ -62,6 +83,7 @@ width: 100%;
   border: none;
   text-decoration: none;
 }
+
 .next{
   background-color: black;
   height: 50px;

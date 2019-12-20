@@ -4,7 +4,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
 
-class Course extends React.Component {
+class Bootstrap extends React.Component {
   constructor(){
     super()
     this.videos = [
@@ -79,4 +79,4 @@ class Course extends React.Component {
 
 }
 
-export default Course;
+export default Bootstrap;
