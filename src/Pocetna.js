@@ -130,6 +130,11 @@ const quotes = [
       return(
       <div className="Quote">
           {/*<h1>Random Naruto Quote Generator</h1>*/}
+          <div><span className="Naslov">Welcome to Sirmium Tag Courses</span></div><br/>
+          <div><span className="podnaslov">Learn to code.</span></div><br/>
+          <div><span className="podnaslov">Build projects.</span></div><br/>
+          <div><span className="podnaslov">Upgrade your Resume.</span></div>
+          <br/>
           <Pocetna />
           
           

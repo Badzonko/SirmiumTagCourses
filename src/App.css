@@ -16,7 +16,25 @@ span{
 @media only screen and (max-width: 600px) {
   span {
     font-size: small;
+    display:grid;
+    
   }
+.Naslov{
+  font-size:25px !important;
+  text-align: center;
+}
+.podnaslov{
+  font-size:20px !important;
+  display:grid;
+grid-template-columns: auto;
+justify-content: center;
+}
+}
+.podnaslov{
+  font-size:35px;
+  display:grid;
+grid-template-columns: auto;
+justify-content: center;
 }
 div footer{
   margin-top: 70px;
@@ -27,6 +45,12 @@ div footer{
   align-items: center !important;
   height: 150px;
   width: 100%;
+}
+.Naslov{
+  font-size: 65px;
+display:grid;
+grid-template-columns: auto;
+justify-content: center;
 }
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
 .quote-section .Quote-wrapper{
