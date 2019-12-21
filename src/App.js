@@ -26,7 +26,7 @@ class App extends React.Component {
       <div className='wrapper'>
         <Navbar/>
       <Switch>
-        <Route path="/Pocetna" component={Pocetna}/>
+        <Route active path="/Pocetna" component={Pocetna}/>
           <Route path="/Bootstrap" component={Bootstrap}/>
           <Route path="Css" component={Css}/>
           <Route path="Reactjs" component={Reactjs}/>

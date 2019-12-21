@@ -10,11 +10,13 @@ class Footer extends Component {
     }
     render() { 
         return ( 
+            <div>
             <footer>
 <div className="footerTabovi"><h3>dasda</h3></div>
 <div className="footerTabovi"><h3>dasda</h3></div>
 <div className="footerTabovi"><h3>dasda</h3></div>
             </footer>
+            </div>
          );
     }
 }

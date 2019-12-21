@@ -104,12 +104,12 @@ const quotes = [
       <div className="quote-section">
           <div className="Quote-wrapper">
               <div className="content">content </div>
-          <h3>"{this.state.quote}"</h3>
+          <span>"{this.state.quote}"</span>
                 <div className="content"> content</div>
           </div>
           <div className="Author-wrapper">
               <div className="content">content</div>
-          <h4>-{this.state.author}</h4>
+          <span>-{this.state.author}</span>
                 <div className="content">Content</div>
           </div>
          

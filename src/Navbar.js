@@ -21,16 +21,16 @@ class Navbar extends React.Component {
                                 <div className="tabovi"><img src={Kurs2}/></div>
                 </Link>
                 <Link className="links" style={{ textDecoration: 'none' }} to='/Bootstrap'>
-                <div className="tabovi"><h3>Bootstrap</h3></div>
+                <div className="tabovi"><span>Bootstrap</span></div>
                 </Link>
                 <Link className="links" style={{ textDecoration: 'none' }} to='/Css'>
-                <div className="tabovi"><h3>Css</h3></div>
+                <div className="tabovi"><span>Css</span></div>
                 </Link>
                 <Link className="links" style={{ textDecoration: 'none' }} to='/Reactjs'>
-                <div className="tabovi"><h3>React.js</h3></div>
+                <div className="tabovi"><span>React.js</span></div>
                 </Link>
                 <Link className="links" style={{ textDecoration: 'none' }} to='/Html'>
-                <div className="tabovi"><h3>Html</h3></div>
+                <div className="tabovi"><span>Html</span></div>
                 </Link>
             </nav>
          );
