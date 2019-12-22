@@ -18,7 +18,7 @@ class Navbar extends React.Component {
         return ( 
             <nav className='NavigacioniBar'>
                 <Link style={{ textDecoration: 'none', }} to="/Pocetna">
-                                <div className="tabovi"><img src={Kurs2}/></div>
+                                <div className="tabovi"><img className="logotip" src={Kurs2}/></div>
                 </Link>
                 <Link className="links" style={{ textDecoration: 'none' }} to='/Bootstrap'>
                 <div className="tabovi"><span>Bootstrap</span></div>

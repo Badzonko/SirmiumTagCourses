@@ -9,7 +9,7 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import Pocetna from './Pocetna';
 
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Redirect, Route} from 'react-router-dom';
 
 class App extends React.Component {
   constructor(){
@@ -26,11 +26,11 @@ class App extends React.Component {
       <div className='wrapper'>
         <Navbar/>
       <Switch>
-        <Route active path="/Pocetna" component={Pocetna}/>
+        <Route path="/" component={Pocetna}/>
           <Route path="/Bootstrap" component={Bootstrap}/>
-          <Route path="Css" component={Css}/>
-          <Route path="Reactjs" component={Reactjs}/>
-          <Route path="Html" component={Html}/>
+          <Route path="/Css" component={Css}/>
+          <Route path="/Reactjs" component={Reactjs}/>
+          <Route path="/Html" component={Html}/>
       </Switch>
       </div>
       </Router>
