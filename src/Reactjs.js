@@ -12,7 +12,7 @@ class Footer extends Component {
         return ( <div  >
             <img className="bck" src={Wallpaper}/>
             <AdSense.Google
-  client='ca-pub-7292810486004926'
+  client='ca-pub-3668151765421542'
   slot='7806394673'
   style={{ display: 'block' }}
   format='auto'
