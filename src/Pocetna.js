@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import AdSense from 'react-adsense';
 
 const quotes = [
     [ ["Be yourself; everyone else is already taken."], ["Oscar Wilde"]], 
@@ -112,9 +113,18 @@ const quotes = [
           <span>-{this.state.author}</span>
                 <div className="content">Content</div>
           </div>
+          <AdSense.Google
+  client='ca-pub-7292810486004926'
+  slot='7806394673'
+  style={{ display: 'block' }}
+  format='auto'
+  responsive='true'
+  layoutKey='-gw-1+2a-9x+5c'
+/>
          <div className="spacee">
 
          </div>
+          
           
         </div>
         
