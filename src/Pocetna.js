@@ -112,7 +112,9 @@ const quotes = [
           <span>-{this.state.author}</span>
                 <div className="content">Content</div>
           </div>
-         
+         <div className="spacee">
+
+         </div>
           
         </div>
         

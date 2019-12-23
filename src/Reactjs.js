@@ -10,6 +10,9 @@ class Footer extends Component {
     render() { 
         return ( <div  >
             <img className="bck" src={Wallpaper}/>
+            <div className="space">
+
+         </div>
         </div>  );
     }
 }

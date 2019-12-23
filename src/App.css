@@ -101,6 +101,12 @@ width: 100%;
 width:100% !important;
 
 }
+.space{
+  height: 500px;
+}
+.spacee{
+  height: 300px;
+}
 .footerIkonice{
   height: 80px;
   width: auto;
