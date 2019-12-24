@@ -79,26 +79,10 @@ class Html extends React.Component {
           <div className="home">
             <h2 className="naslov">{this.title[this.state.currentIndex]}</h2>
             <div className="player">
-            <div><AdSense.Google
-            target="_blank"
-  client='ca-pub-3668151765421542'
-  slot='7806394673'
-  style={{ display: 'block' }}
-  format='auto'
-  responsive='true'
-  layoutKey='-gw-1+2a-9x+5c'
-/></div>
+            <div></div>
             <ReactPlayer width='100%'
              url={this.videos[this.state.currentIndex]} controls={true}  />
-            <div ><AdSense.Google
-            target="_blank"
-  client='ca-pub-3668151765421542'
-  slot='7806394673'
-  style={{ display: 'block' }}
-  format='auto'
-  responsive='true'
-  layoutKey='-gw-1+2a-9x+5c'
-/></div>
+            <div ></div>
             </div>
             <br/>
             <div className="Buttons">
