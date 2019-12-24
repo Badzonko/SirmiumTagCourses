@@ -57,6 +57,7 @@ class Bootstrap extends React.Component {
           <h2 className="naslov">{this.title[this.state.currentIndex]}</h2>
           <div className="player">
           <div><AdSense.Google
+          target="_blank"
   client='ca-pub-3668151765421542'
   slot='7806394673'
   style={{ display: 'block' }}
@@ -67,6 +68,7 @@ class Bootstrap extends React.Component {
           <ReactPlayer width='100%'
            url={this.videos[this.state.currentIndex]} controls={true}  />
           <div ><AdSense.Google
+          target="_blank"
   client='ca-pub-3668151765421542'
   slot='7806394673'
   style={{ display: 'block' }}
