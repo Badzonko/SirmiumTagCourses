@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import './App.css';
-import Wallpaper from './Wallpaper.png';
 import AdSense from 'react-adsense';
 import ReactPlayer from 'react-player';
 
