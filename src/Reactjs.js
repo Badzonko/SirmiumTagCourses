@@ -84,7 +84,14 @@ class Reactjs extends React.Component {
             <button className="invisible"></button>
   
             </div>
-            
+            <AdSense.Google
+  client='ca-pub-3668151765421542'
+  slot='6768006640'
+  style={{ display: 'block' }}
+  format='auto'
+  responsive='true'
+  layoutKey='-gw-1+2a-9x+5c'
+/>
             
             <br/>
            
