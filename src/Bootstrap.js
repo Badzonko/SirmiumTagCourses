@@ -10,7 +10,7 @@ class Bootstrap extends React.Component {
   constructor(){
     super()
     this.videos = [
-      'https://www.youtube.com/watch?v=zTitoHKsyJg',
+      'https://www.youtube.com/watch?v=h-c3p8P6mNA',
       'https://www.youtube.com/watch?v=_xWljJScu70',
       'https://www.youtube.com/watch?v=zTitoHKsyJg',
       'https://www.youtube.com/watch?v=zTitoHKsyJg',
@@ -18,7 +18,7 @@ class Bootstrap extends React.Component {
       'https://www.youtube.com/watch?v=zTitoHKsyJg',
     ]
     this.title = [
-      'Naslov 1',
+      'Bootstrap kurs - 01 - Priprema i uvod za rad u Bootstrap-u',
       'Naslov 2',
       'Naslov 3',
       'Naslov 4',
@@ -65,7 +65,7 @@ class Bootstrap extends React.Component {
           <div className="Buttons">
           <button className="invisible"></button>
           <button  disabled={this.state.currentIndex === 0} class = "prev "  onClick={this.goToPrevSlide}>Previous lesson</button>
-          <button disabled={this.state.currentIndex === 5} class = "next" onClick={this.goToNextSlide}>Next lesson</button>
+          <button disabled={this.state.currentIndex === 0} class = "next" onClick={this.goToNextSlide}>Next lesson</button>
           <button className="invisible"></button>
 
           </div>
