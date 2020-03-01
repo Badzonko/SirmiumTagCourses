@@ -6,7 +6,7 @@ import Css from './Css';
 import Reactjs from './Reactjs';
 import Html from './Html';
 import {Link} from 'react-router-dom';
-import Kurs2 from './Kurs2.png';
+import dev from './dev.png';
 import Quotes from './Pocetna';
 
 class Navbar extends React.Component {
@@ -18,7 +18,7 @@ class Navbar extends React.Component {
         return ( 
             <nav className='NavigacioniBar'>
                 <Link style={{ textDecoration: 'none', }} to="/Pocetna">
-                                <div className="tabovi"><img className="logotip" src={Kurs2}/></div>
+                                <div className="tabovi"><img className="logotip" src={dev}/></div>
                 </Link>
                 <Link className="links" style={{ textDecoration: 'none' }} to='/Bootstrap'>
                 <div className="tabovi"><span>Bootstrap</span></div>

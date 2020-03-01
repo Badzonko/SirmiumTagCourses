@@ -80,7 +80,7 @@ const quotes = [
     }
     
     newQuote(){
-      let random = Math.floor((Math.random() * 15)+6);
+      let random = Math.floor((Math.random() * 11)+3);
       
       this.setState( ()=> {
         return {

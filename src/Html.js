@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './App.css';
 import AdSense from 'react-adsense';
 import ReactPlayer from 'react-player';
+import Iframe from 'react-iframe';
 
 
 class Html extends React.Component {
@@ -76,35 +77,40 @@ class Html extends React.Component {
     
     render(){
       return(
-          <div className="home">
-            <h2 className="naslov">{this.title[this.state.currentIndex]}</h2>
-            <div className="player">
-            <div></div>
-            <ReactPlayer width='100%'
-             url={this.videos[this.state.currentIndex]} controls={true}  />
-            <div ></div>
-            </div>
-            <br/>
-            <div className="Buttons">
-            <button className="invisible"></button>
-            <button  disabled={this.state.currentIndex === 0} class = "prev "  onClick={this.goToPrevSlide}>Previous lesson</button>
-            <button disabled={this.state.currentIndex === 16} class = "next" onClick={this.goToNextSlide}>Next lesson</button>
-            <button className="invisible"></button>
-  
-            </div>
-            <AdSense.Google
-  client='ca-pub-3668151765421542'
-  slot='6768006640'
-  style={{ display: 'block' }}
-  format='auto'
-  responsive='true'
-  layoutKey='-gw-1+2a-9x+5c'
-/>
-            
-            <br/>
-           
-  
-          </div>
+        <div className="home">
+        <div className="video">
+        <h2 className="naslov">{this.title[this.state.currentIndex]}</h2>
+        <div className="player">
+        <div></div>
+        <ReactPlayer width='100%'
+         url={this.videos[this.state.currentIndex]} controls={true}  />
+        <div ></div>
+        </div>
+        <br/>
+        <div className="Buttons">
+        <button className="invisible"></button>
+        <button  disabled={this.state.currentIndex === 0} class = "prev "  onClick={this.goToPrevSlide}>Previous lesson</button>
+        <button disabled={this.state.currentIndex === 16} class = "next" onClick={this.goToNextSlide}>Next lesson</button>
+        <button className="invisible"></button>
+
+        </div>
+        </div>
+        <div className="editor">
+        <Iframe id="stajl" url="https://codesandbox.io/"
+      width="100%"
+      height="700px"
+      id="myId"
+      className="myClassname"
+      display="initial"
+      position="relative"/>
+        </div>
+        
+        
+        
+        <br/>
+        
+
+      </div>
   
       );
   }
