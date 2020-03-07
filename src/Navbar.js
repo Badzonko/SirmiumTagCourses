@@ -26,20 +26,20 @@ class Navbarr extends React.Component {
             <Navbar.Collapse  id="basic-navbar-nav" light>
               <Nav className="mr-auto">
               <NavDropdown  title="HTML" id="basic-nav-dropdown">
-                  <NavDropdown.Item className="dark text-center"  href="/Htmlsrb">HTML (SRB)</NavDropdown.Item>
-                  <NavDropdown.Item className="dark text-center" href="/Html">HTML (ENG)</NavDropdown.Item>
+                  <NavDropdown.Item className="dark text-center"  href="Htmlsrb">HTML (SRB)</NavDropdown.Item>
+                  <NavDropdown.Item className="dark text-center" href="Html">HTML (ENG)</NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown  title="CSS" id="basic-nav-dropdown">
-                  <NavDropdown.Item className="dark text-center"  href="/Csssrb">CSS (SRB)</NavDropdown.Item>
-                  <NavDropdown.Item className="dark text-center" href="/Css">CSS (ENG)</NavDropdown.Item>
+                  <NavDropdown.Item className="dark text-center"  href="Csssrb">CSS (SRB)</NavDropdown.Item>
+                  <NavDropdown.Item className="dark text-center" href="Css">CSS (ENG)</NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown  title="BOOTSTRAP" id="basic-nav-dropdown">
-                  <NavDropdown.Item className="dark text-center"  href="/Bootstrapsrb">BOOTSTRAP (SRB)</NavDropdown.Item>
-                  <NavDropdown.Item className="dark text-center" href="/Bootstrap">BOOTSTRAP (ENG)</NavDropdown.Item>
+                  <NavDropdown.Item className="dark text-center"  href="Bootstrapsrb">BOOTSTRAP (SRB)</NavDropdown.Item>
+                  <NavDropdown.Item className="dark text-center" href="Bootstrap">BOOTSTRAP (ENG)</NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown  title="REACT.JS" id="basic-nav-dropdown">
-                  <NavDropdown.Item className="dark text-center"  href="/">REACT.JS (SRB)</NavDropdown.Item>
-                  <NavDropdown.Item className="dark text-center" href="/Reactjs">REACT.JS (ENG)</NavDropdown.Item>
+                  <NavDropdown.Item className="dark text-center"  href="">REACT.JS (SRB)</NavDropdown.Item>
+                  <NavDropdown.Item className="dark text-center" href="Reactjs">REACT.JS (ENG)</NavDropdown.Item>
                 </NavDropdown>
               </Nav>
               
