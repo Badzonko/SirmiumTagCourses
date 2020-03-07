@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import AdSense from 'react-adsense';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const quotes = [
     [ ["Be yourself; everyone else is already taken."], ["Oscar Wilde"]], 
@@ -142,7 +144,7 @@ const quotes = [
       return(
       <div className="Quote">
           {/*<h1>Random Naruto Quote Generator</h1>*/}
-          <div><span className="Naslov">Welcome to Sirmium Tag Courses</span></div><br/>
+          <div><span className="Naslov text-center">Welcome to Sirmium Tag Courses</span></div><br/>
           <div><span className="podnaslov">Learn to code.</span></div><br/>
           <div><span className="podnaslov">Build projects.</span></div><br/>
           <div><span className="podnaslov">Upgrade your Resume.</span></div>

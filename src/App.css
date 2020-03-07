@@ -1,14 +1,25 @@
 body{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.NavigacioniBar{
+#NavigacioniBar{
   margin-bottom: 70px;
-  height:40px;
-  display:grid;
-  grid-template-columns: 100px auto auto auto auto;
-  background-color: rgb(25, 39, 52);
-  justify-items: center !important;
-  align-items: center !important;
+  background-color: rgb(25, 39, 52) !important;
+  color: white !important;
+
+}
+.dark{
+  color:  rgb(25, 39, 52) !important;
+  font-weight: bold !important;
+}
+
+a{
+  text-decoration: none;
+  color: white !important;
+  font-weight: bold !important;
+font-size: 25px !important;
+}
+#LVDD:hover{
+background-color: white !important;
 }
 span{
   font-size: x-large;
@@ -29,12 +40,7 @@ span{
 grid-template-columns: auto;
 justify-content: center;
 }
-.NavigacioniBar .links .tabovi{
-  display:grid;
- 
-  justify-items: center !important;
-  align-items: center !important;
-}
+
 
 }
 .podnaslov{
@@ -171,6 +177,7 @@ width:100% !important;
 .naslov{
   text-align: center;
 }
-.NavigacioniBar div:hover{
-  background-color: rgb(46, 81, 114);
+#navIkonica{
+  width:150px;
+  height: 50px;
 }
