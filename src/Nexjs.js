@@ -1,44 +1,47 @@
 import React, { Component } from 'react'
 import './App.css';
 import AdSense from 'react-adsense';
-import Iframe from 'react-iframe';
 import ReactPlayer from 'react-player';
+import Iframe from 'react-iframe';
 
 
-class Reactjs extends React.Component {
+class Nexjs extends React.Component {
     constructor(){
       super()
       this.videos = [
-        'https://www.youtube.com/watch?v=-AbaV3nrw6E',
-        'https://www.youtube.com/watch?v=2NLgQMs2hOw',
-        'https://www.youtube.com/watch?v=OzqR10jG1pg',
-        'https://www.youtube.com/watch?v=z14df09bWfc',
-        'https://www.youtube.com/watch?v=i1PLMgtG5Qo',
-        'https://www.youtube.com/watch?v=bH7UXQTCfm4',
-        'https://www.youtube.com/watch?v=5tT8FXeE1Y8',
-        'https://www.youtube.com/watch?v=g6a5yC_v70c',
-        'https://www.youtube.com/watch?v=TWzA2Ir1ZJc',
-        'https://www.youtube.com/watch?v=bBiITqaO08E',
-        'https://www.youtube.com/watch?v=GBoJOVNzc_0',
-        'https://www.youtube.com/watch?v=szmS_M-BMls',
-        'https://www.youtube.com/watch?v=OKRu7i49X54',
+        'https://youtu.be/k_0ZzvHbNBQ',
+        'https://youtu.be/sB3acNJeNKE',
+        'https://youtu.be/Ad2ngx6CT0M',
+        'https://youtu.be/cVYQEvP-_PA',
+        'https://youtu.be/xrxDk1zLKdc',
+        'https://youtu.be/lAUncPg_FVw',
+        'https://youtu.be/aZ16pkrMkZE',
+        'https://youtu.be/rBzCvbA0Dls',
+        'https://youtu.be/CrAU8xTHy4M',
+        'https://youtu.be/mAOxWf36YLo',
+        'https://youtu.be/m-gLLTbBEE4',
+        'https://youtu.be/_GSOnHRYSS0',
+        
         
 
       ]
       this.title = [
-        '1: Getting Started',
-        '2: Simple Demo',
-        '3: Components',
-        '4: Rendering Multiple Components',
-        '5: Props',
-        '6: Event Handling',
-        '7: State',
-        '8: Adding State to Components',
-        '9: refs',
-        '10: Multiple Child Components',
-        '11: Updating State and Removing Components',
-        '12: Passing Function as Props',
-        '13: Creating New Components',
+        '1:  Intro & Environment',
+        '2: App Setup & Express Install',
+        '3: Pug Template Engine',
+        '4: Mongoose & Model Setup',
+        '5: Save Articles to MongoDB',
+        '6: Bower & Bootstrap',
+        '7: Update & Delete Articles',
+        "8: Messaging & Validation",
+        '9:  User Registration',
+        '10: User Login',
+        '11: Access Control',
+        '12: Deploying Our App',
+        
+        
+        
+
       ]
       this.state = {
         currentIndex: 0,
@@ -81,7 +84,7 @@ class Reactjs extends React.Component {
         <div className="Buttons">
         <button className="invisible"></button>
         <button  disabled={this.state.currentIndex === 0} class = "prev "  onClick={this.goToPrevSlide}>Previous lesson</button>
-        <button disabled={this.state.currentIndex === 12} class = "next" onClick={this.goToNextSlide}>Next lesson</button>
+        <button disabled={this.state.currentIndex === 11} class = "next" onClick={this.goToNextSlide}>Next lesson</button>
         <button className="invisible"></button>
 
         </div>
@@ -103,9 +106,10 @@ class Reactjs extends React.Component {
 
       </div>
   
+  
       );
   }
   
   }
  
-export default Reactjs;
+export default Nexjs;

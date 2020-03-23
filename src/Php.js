@@ -1,44 +1,68 @@
 import React, { Component } from 'react'
 import './App.css';
 import AdSense from 'react-adsense';
-import Iframe from 'react-iframe';
 import ReactPlayer from 'react-player';
+import Iframe from 'react-iframe';
 
 
-class Reactjs extends React.Component {
+class Php extends React.Component {
     constructor(){
       super()
       this.videos = [
-        'https://www.youtube.com/watch?v=-AbaV3nrw6E',
-        'https://www.youtube.com/watch?v=2NLgQMs2hOw',
-        'https://www.youtube.com/watch?v=OzqR10jG1pg',
-        'https://www.youtube.com/watch?v=z14df09bWfc',
-        'https://www.youtube.com/watch?v=i1PLMgtG5Qo',
-        'https://www.youtube.com/watch?v=bH7UXQTCfm4',
-        'https://www.youtube.com/watch?v=5tT8FXeE1Y8',
-        'https://www.youtube.com/watch?v=g6a5yC_v70c',
-        'https://www.youtube.com/watch?v=TWzA2Ir1ZJc',
-        'https://www.youtube.com/watch?v=bBiITqaO08E',
-        'https://www.youtube.com/watch?v=GBoJOVNzc_0',
-        'https://www.youtube.com/watch?v=szmS_M-BMls',
-        'https://www.youtube.com/watch?v=OKRu7i49X54',
+        'https://youtu.be/oJbfyzaA2QA',
+        'https://youtu.be/6tCWiexc05U',
+        'https://youtu.be/0Dp7Lt7iT3A',
+        'https://youtu.be/9p9siksrSoU',
+        'https://youtu.be/5ggUfM6mvSk',
+        'https://youtu.be/ApP1rgZ9OlY',
+        'https://youtu.be/x6UDhaHVaeY',
+        'https://youtu.be/EHfr-edosmA',
+        'https://youtu.be/faknU12cs7Y',
+        'https://youtu.be/oVJ0anq8yLA',
+        'https://youtu.be/cIFUH3Qnd6s',
+        'https://youtu.be/z32BOHVWplU',
+        'https://youtu.be/NUq0ZT54zvw',
+        'https://youtu.be/pfY9LwcsH3A',
+        'https://youtu.be/tJ5eUgOxITE',
+        'https://youtu.be/W4rSS4-LdIE',
+        'https://youtu.be/RzMjwICWKr4',
+        'https://youtu.be/nU0KDn-vLT4',
+        'https://youtu.be/sLLZU38Okgo',
+        'https://youtu.be/FhbP6bF21Cs',
+        'https://youtu.be/IYlDJ2K3MGk',
+        'https://youtu.be/9t7AH7lOlL0',
+        'https://youtu.be/cIFUH3Qnd6s',
+        'https://youtu.be/z32BOHVWplU',
         
 
       ]
       this.title = [
-        '1: Getting Started',
-        '2: Simple Demo',
-        '3: Components',
-        '4: Rendering Multiple Components',
-        '5: Props',
-        '6: Event Handling',
-        '7: State',
-        '8: Adding State to Components',
-        '9: refs',
-        '10: Multiple Child Components',
-        '11: Updating State and Removing Components',
-        '12: Passing Function as Props',
-        '13: Creating New Components',
+        '1: Series Introduction',
+        '2: PHP7 & Xammp Installation',
+        '3: Variables, Constants & Data Types',
+        '4: Arrays',
+        '5: Loops',
+        '6: Functions',
+        '7: Conditionals & Comparison',
+        "8: Dates & Timestamps",
+        '9: Include & Require',
+        '10: $_SERVER Superglobal',
+        '11: Get & Post Tutorial',
+        '12: Common String Functions',
+        '13: Ternary & Shorthand Syntax',
+        '14: Filters & Validation',
+        '15: PHP Contact Form',
+        '16: Sessions Tutorial',
+        '17: Cookies Tutorial',
+        '18: PHP & AJAX',
+        '19: File System Functions',
+        "20: OOP",
+        '21: IFetching Data With MySQLi',
+        '22: MySQLi Insert, Update & Delete',
+        
+        
+        
+
       ]
       this.state = {
         currentIndex: 0,
@@ -81,7 +105,7 @@ class Reactjs extends React.Component {
         <div className="Buttons">
         <button className="invisible"></button>
         <button  disabled={this.state.currentIndex === 0} class = "prev "  onClick={this.goToPrevSlide}>Previous lesson</button>
-        <button disabled={this.state.currentIndex === 12} class = "next" onClick={this.goToNextSlide}>Next lesson</button>
+        <button disabled={this.state.currentIndex === 21} class = "next" onClick={this.goToNextSlide}>Next lesson</button>
         <button className="invisible"></button>
 
         </div>
@@ -103,9 +127,10 @@ class Reactjs extends React.Component {
 
       </div>
   
+  
       );
   }
   
   }
  
-export default Reactjs;
+export default Php;

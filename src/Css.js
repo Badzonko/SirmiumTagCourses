@@ -24,18 +24,18 @@ class Css extends React.Component {
 
       ]
       this.title = [
-        'CSS Tutorial for Beginners - 01 - Introduction to CSS',
-        'CSS Tutorial for Beginners - 02 - Changing font type, color, and size',
-        'CSS Tutorial for Beginners - 03 - Multiple selectors and writing rule for more than one element',
-        'CSS Tutorial for Beginners - 04 - Add a line to header and border property',
-        'CSS Tutorial for Beginners - 05 - Inheritance and overriding',
-        'CSS Tutorial for Beginners - 06 - Using Classes in CSS',
-        'CSS Tutorial for Beginners - 07 - More on Classes in CSS',
-        'CSS Tutorial for Beginners - 08 - Font Family',
-        'CSS Tutorial for Beginners - 09 - The Font Weight Property',
-        'CSS Tutorial for Beginners - 10 - Using an external style sheet',
-        'CSS Tutorial for Beginners - 11 - Text-decoration property',
-        'CSS Tutorial for Beginners - 12 - Italic fonts',
+        '1: Introduction to CSS',
+        '2: Changing font type, color, and size',
+        '3: Multiple selectors and writing rule for more than one element',
+        '4: Add a line to header and border property',
+        '5: Inheritance and overriding',
+        '6: Using Classes in CSS',
+        '7: More on Classes in CSS',
+        '8: Font Family',
+        '9: The Font Weight Property',
+        '10: Using an external style sheet',
+        '11: Text-decoration property',
+        '12: Italic fonts',
 
       ]
       this.state = {

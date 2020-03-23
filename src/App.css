@@ -16,12 +16,35 @@ body{
   text-decoration: none !important;
 
 }
+#border{
+  border: rgb(25, 39, 52) 5px solid;
+  border-radius: 50px;
+  height:auto;
+}
+#doclink:hover{
+  text-decoration: none !important;
+
+}
+
+#doclink{
+  color: yellowgreen !important;
+  font-size: 25px !important;
+}
+.white{
+  color:  white !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+}
+.white:hover{
+  text-decoration: none !important;
+
+}
 
 a{
   text-decoration: none;
   color: white !important;
   font-weight: bold !important;
-font-size: 25px !important;
+font-size: 15px !important;
 }
 #LVDD:hover{
 background-color: white !important;
