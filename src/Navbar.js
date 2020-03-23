@@ -31,7 +31,7 @@ class Navbarr extends React.Component {
     render() { 
         return ( 
            
-            <Navbar id="NavigacioniBar" className="text-center navbar-light" expand="lg" bg="light" variant="light">
+            <Navbar id="NavigacioniBar" className="text-center navbar-light" expand="lg" bg="dark" variant="dark">
             <Navbar.Brand href="/Pocetna"><img id="navIkonica" src={dev} /></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" light />
             <Navbar.Collapse light>
