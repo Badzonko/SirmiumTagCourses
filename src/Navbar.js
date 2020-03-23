@@ -8,7 +8,7 @@ import Reactjs from './Reactjs';
 import Html from './Html';
 import {Link} from 'react-router-dom';
 import dev from './dev.png';
-import Quotes from './Pocetna';
+import Pocetna from './Pocetna';
 import Htmlsrb from './Htmlsrb';
 import Documentation from './Documentation';
 import Cssgrid from './Css-grid';
@@ -32,7 +32,7 @@ class Navbarr extends React.Component {
         return ( 
            
             <Navbar id="NavigacioniBar" className="text-center navbar-light" expand="lg" bg="dark" variant="dark">
-            <Navbar.Brand href="./Pocetna"><Link to="/Quotes"><img id="navIkonica" src={dev} /></Link></Navbar.Brand>
+            <Navbar.Brand href="./Pocetna"><Link to="/Pocetna"><img id="navIkonica" src={dev} /></Link></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" light />
             <Navbar.Collapse light>
               <Nav className="mr-auto">
