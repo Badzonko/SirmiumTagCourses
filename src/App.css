@@ -21,6 +21,7 @@ body{
   border-radius: 50px;
   height:auto;
 }
+
 #doclink:hover{
   text-decoration: none !important;
 
@@ -29,6 +30,31 @@ body{
 #doclink{
   color: yellowgreen !important;
   font-size: 25px !important;
+}
+.formsInput{
+  width:100%;
+  border: 1px solid black;
+
+}
+.avatar{
+  border-radius:50%;
+  height: 200px;
+  width:200px;
+
+}
+.sad{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.labelDiv{
+  border: 1px solid black;
+  width:100%;
+  font-weight: bold;
+}
+.formInp{
+  display: grid;
+  grid-template-columns: auto auto;
+  
 }
 .white{
   color:  white !important;
@@ -117,7 +143,9 @@ color: rgb(156, 156, 156);
 .tabovi{
 height: 40px;
 }
-
+small{
+  font-size:18px !important;
+}
 .links{
   width: 100%;
   text-align: center;
@@ -196,6 +224,10 @@ width:100% !important;
   background-color: rgba(104, 104, 104, 0.5);
   color: black;
 
+}
+#verified{
+  width:15px;
+  height:15px;
 }
 .prev:hover{
   background-color: rgba(104, 104, 104, 0.5);

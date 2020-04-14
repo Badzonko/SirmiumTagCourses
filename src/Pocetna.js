@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import AdSense from 'react-adsense';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Login from './login';
+
 
 
 const quotes = [
@@ -150,6 +152,7 @@ const quotes = [
           <div><span className="podnaslov">Upgrade your Resume.</span></div>
           <br/>
           <Pocetna />
+          
           
           
           

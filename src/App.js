@@ -20,6 +20,7 @@ import Graphql from './Graphql';
 import Nexjs from './Nexjs';
 import Php from './Php';
 import Mongodb from './Mongodb'
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 import {BrowserRouter as Router, Switch, Redirect, Route} from 'react-router-dom';
 
@@ -64,7 +65,10 @@ class App extends React.Component {
       </Switch>
       </div>
       </Router>
-      
+      <MessengerCustomerChat
+    pageId="<103004181333810>"
+    appId="<1080954335607845>"
+  />
       <Footer/>
 
       </div>
