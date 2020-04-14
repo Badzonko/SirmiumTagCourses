@@ -22,7 +22,7 @@ import Mongodb from './Mongodb';
 import firebase from 'firebase';
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button, Navbar, Nav, NavDropdown,  } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown,  } from 'react-bootstrap';
 import phs from './phs.png';
 import verified from './verified.png';
 import denied from './denied.png'
@@ -74,7 +74,7 @@ class Login extends React.Component {
      <div className="text-center"><img className="avatar" src={(firebase.auth().currentUser.photoURL != null) ? firebase.auth().currentUser.photoURL : phs}  alt=""/></div> 
       <small className="text-left">Name: <strong> {firebase.auth().currentUser.displayName}</strong> </small><br/>
       <small className="text-left">Email: <strong>{firebase.auth().currentUser.email}</strong> </small><br/>
-      <small className="text-left">Email verified: <img id="verified" src={(firebase.auth().currentUser.emailVerified == true) ? verified : denied }/> </small><br/>
+      <small className="text-left">Email verified: <img alt={firebase.auth().currentUser.displayName} id="verified" src={(firebase.auth().currentUser.emailVerified === true) ? verified : denied }/> </small><br/>
       <small className="text-left">Phone number: {(firebase.auth().currentUser.phoneNumber != null) ? firebase.auth().currentUser.phoneNumber : "Please enter phone number" } </small><br/>
 
       <button className="text-center btn btn-danger" onClick={()=>firebase.auth().signOut()}>Sign out!</button>
