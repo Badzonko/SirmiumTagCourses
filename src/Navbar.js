@@ -21,7 +21,6 @@ import Php from './Php';
 import Mongodb from './Mongodb';
 import firebase from 'firebase';
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth'
-import Dashboard from './Dashboard';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, Navbar, Nav, NavDropdown,  } from 'react-bootstrap';
 import phs from './phs.png';
